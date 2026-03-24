@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CV - ĐẶNG DUY TIẾN</title>
+
+<style>
+/* ===== PRINT SETUP ===== */
+@page {
+    size: A4;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+    display: flex;
+    width: 210mm;
+    height: 297mm;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 35%;
+    background: #1f3b4d;
+    color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    display: block;
+    margin: 0 auto 20px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.line {
+    height: 2px;
+    background: #ccc;
+    margin-bottom: 10px;
+}
+
+.sidebar p,
+.sidebar li {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.sidebar ul {
+    padding-left: 15px;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main {
+    width: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #f7f7f7;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.name span {
+    color: #1f3b4d;
+}
+
+.title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background: #1f3b4d;
+    margin-bottom: 50px;
+}
+
+.main-section {
+    margin-bottom: 20px;
+}
+
+.main-section h2 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.main p, .main li {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-time {
+    font-size: 12px;
+    color: #666;
+}
+h2{
+    color:rgb(4, 42, 255)
+}
+
+
+/* ===== PRINT FIX ===== */
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <img src="avatar3.jpg" class="profile-img">
+
+        <div class="section-title">CONTACT</div>
+        <div class="line"></div>
+        <p>📞 0349993774</p>
+        <p>✉️ dangduytien20@gmail.com</p>
+        <p>📍 Ho Chi Minh City</p>
+        <p>🐙 github.com/tien-duytien</p>
+
+        <div class="section-title">SKILLS</div>
+        <div class="line"></div>
+        <p><b>Programming:</b></p>
+        <ul>
+            <li>Java, C++, PHP</li>
+            <li>HTML, CSS, JavaScript</li>
+        </ul>
+
+        <p><b>Databases:</b></p>
+        <ul>
+            <li>MySQL, MongoDB</li>
+        </ul>
+
+        <p><b>Frameworks:</b></p>
+        <ul>
+            <li>ExpressJS</li>
+            <li>Bootstrap</li>
+            <li>Tailwind CSS</li>
+        </ul>
+
+        <p><b>Soft Skills:</b></p>
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+        </ul>
+
+        <div class="section-title">LANGUAGES</div>
+        <div class="line"></div>
+        <ul>
+            <li>Vietnamese (Native)</li>
+            <li>English (IELTS 6.0)</li>
+        </ul>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+        <div class="name">ĐẶNG DUY  <span> TIẾN</span></div>
+        <div class="title">WEB APPLICATION DEVELOPER</div>
+        <div class="underline"></div>
+
+        <div class="main-section">
+            <h2>PROFILE</h2>
+            <p>
+                Passionate and detail-oriented web application development intern eager to apply skills in HTML, CSS, JavaScript, and MySQL.
+                Enthusiastic about building user-friendly applications and learning new technologies.
+            </p>
+        </div>
+
+        <div class="main-section">
+            <h2>EDUCATION</h2>
+            <p><b>Ho Chi Minh City University of Technology</b> (2022 - Present)</p>
+            <p>Bachelor of Computer Science</p>
+            <ul>
+                <li>Major in Computer Science</li>
+                <li>Courses: Data Structures, Software Engineering, Databases</li>
+            </ul>
+        </div>
+
+        <div class="main-section">
+            <h2>PROJECTS</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">HCMUT Smart Printing Service </div>
+                    <div class="project-time">Sep 2024 - Dec 2024</div>
+                </div>
+                <ul>
+                    <li>Developed front-end UI and printing features</li>
+                    <li>Used: HTML, CSS, JavaScript</li>
+                    <li>Teamwork Project</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">Furniture E-Commerce Website</div>
+                    <div class="project-time">Oct 2024 - Dec 2024</div>
+                </div>
+                <ul>
+                    <li>UI and Database design</li>
+                    <li>Used: Figma for UI design, Eraser.io for database design</li>
+                    <li>Teamwork Project</li>
+                </ul>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">CV management</div>
+                    <div class="project-time">Oct 2024 - Dec 2024</div>
+                </div>
+                <ul>
+                    <li>Develope a Full-stack local server project in XAMPP</li>
+                    <li>Built features for different users base on their role (Admin, Job Seeker, Employer)</li>
+                    <li>Used built-in phpMyAdmin tool for Database Management</li>
+                    <li>Front-end: ReactJS, Tailwin CSS, </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
