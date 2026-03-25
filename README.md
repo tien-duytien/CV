@@ -8,7 +8,6 @@ A single-file, print-ready curriculum vitae: **one HTML document** with embedded
 | ---------- | ----------- |
 | `CV.html`  | Full résumé markup and styles (A4 layout, sidebar + main column). |
 
-The page expects a profile image at **`avatar3.jpg`** in the same folder as `CV.html`. If that file is missing, the image area will show a broken image in the browser until you add a photo or update the `<img src="...">` path in `CV.html`.
 
 ## How to use
 
